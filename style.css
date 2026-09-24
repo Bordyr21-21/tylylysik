@@ -1,56 +1,61 @@
 .image {
-width: 100px;
-border-radius: 50%;
+    width: 100px;
+    border-radius: 50%;
 }
 
 .hed {
-    height: 130px;
+    height: 100px;
     padding: 10px 20px;
     box-sizing: border-box;
-    background-color: blanchedalmond;
-
+    border: 2px solid #ff8ff0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url(sakura_hed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.button, .button2 {
-    color: blueviolet;
+.button,
+.button2 {
+    color: rgb(255, 78, 175);
+    font-family: fantasy;
 }
 
-.div1 {
-background-color: bisque;
-
+.bt3, .bt4 {
+    color: rgb(255, 78, 175);
+    font-family: fantasy;
 }
 
 .img1 {
- display: flex;
-justify-content: center;
-align-items: center;
-padding: 40px 20px;
-max-width: 100%;
-block-size: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    max-width: 100%;
+    block-size: border-box;
 }
 
 .card {
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color: #f9f9f9;
-border: 2px solid #ccc;
-padding: 20px;
-box-shadow: 0 4px 8px rgba(0,0,0,0.1);   
-width: fit-content;
-border-radius: 20%;
-margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px black;
+    width: fit-content;
+    border-radius: 20%;
+    margin: 100px;
 }
 
 .im {
-    width: 200px;       
-    height: 200px;       
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
 
 .p2 {
@@ -64,12 +69,49 @@ margin: 100px;
 .p1 {
     font-size: 32px;
     font-weight: bold;
+    font-family: fantasy;
+    color: aliceblue;
 }
 
 .fot {
-    height: 130px;
+    height: 100px;
     padding: 10px 20px;
     box-sizing: border-box;
-    background-color: rgb(148, 148, 148);
+    background-image: url(d822c3fec62247617cc2d70db57ec295.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #ff8ff0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.main {
+    background-image: url(d4024736403321036254b43140c7cc45.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.imgfot {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
